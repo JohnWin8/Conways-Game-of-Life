@@ -1,6 +1,6 @@
 CXX = g++
 CXXFLAGS = -std=c++14 -Wall -MMD -Werror=vla -L/usr/X11R6/lib 
-EXEC = a4q4
+EXEC = PlayGame
 OBJECTS = cell.o main.o grid.o window.o
 DEPENDS = ${OBJECTS:.o=.d}
 ${EXEC}: ${OBJECTS}
