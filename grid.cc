@@ -99,7 +99,7 @@ void Grid::clearGrid() {
 	theGrid.clear();
 }
 
-// this is teh output operator for a Grid
+// this is the output operator for a Grid
 ostream & operator<<(ostream &out, const Grid &g){
 	int n = g.size;
 	for (int i = 0; i < n; ++i) {

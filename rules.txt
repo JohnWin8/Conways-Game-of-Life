@@ -1,0 +1,21 @@
+How to play the game:
+
+To create a grid, type 
+	new n
+ where n is the size of the nxn grid.
+
+To make Cells alive, go into initialization mode by typing
+	init 
+ then type pairs of coordinates. To end, type -1 -1.
+Ex. 	init 1 0 2 3 -1 -1
+
+To play the game, type
+	step
+ to run one step of the game, or type
+	steps n
+ to run n steps
+
+To print out the board to the command line, type
+	print
+
+
